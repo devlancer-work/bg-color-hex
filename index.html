@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Project</title>
+
+    <style>
+        div.button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        div button {
+            padding: 10px 15px;
+            font-size: 18px;
+            border-radius: 5px;
+            color: #6c757d;
+            border: 2px solid;
+            font-weight: 500;
+            background: transparent;
+            padding: 10px 15px;
+            cursor: pointer;
+            box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+        }
+        div button:hover {
+            border-color: #6c757d;
+            background: #6c757d;
+            color: #fff;
+        }
+        div button:focus {
+            outline: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="button" id="div">
+        <h1>Hex Color : <span id="hex-value"></span></h1>
+        
+        <button id="button">Click Me</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
